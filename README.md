@@ -11,7 +11,7 @@ Layers are as follows:
 - Client (i.e. Front-end React/Angular, Mobile)
 - API Layer (i.e. GET, POST, PUT, DELETE)
 - Service Layer (where Business Logic resides)
-- Data Access Layer (where models, db, and CRUD resides)
+- Data Access Layer (where Database functions resides)
 - Database (i.e. MySQL, MariaDB, PostgreSQL, MongoDB)
 
 
