@@ -12,24 +12,9 @@ import java.time.Month;
 import java.util.List;
 
 @SpringBootApplication(exclude =  {DataSourceAutoConfiguration.class })
-@RestController
 public class DemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
-	}
-
-	@GetMapping
-	public List<Student> hello()
-	{
-		return List.of(
-				new Student(
-						1L,
-						"Sante",
-						"sante@my.org",
-						LocalDate.of(2020, Month.NOVEMBER, 18),
-						50
-				)
-		);
 	}
 }
